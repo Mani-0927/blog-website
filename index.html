@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog Website</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Personal Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#post1">Post 1</a></li>
+        <li><a href="#post2">Post 2</a></li>
+        <li><a href="#post3">Post 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Blog Posts -->
+  <main>
+
+    <!-- Post 1 -->
+    <section class="post" id="post1">
+      <h2>Learning Frontend Development</h2>
+      <p class="date">Published on: 10 Dec 2025</p>
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Frontend Development">
+      <p>
+        Frontend development focuses on building the user interface of websites.
+        HTML, CSS, and JavaScript are the core technologies used to create interactive
+        and responsive web applications.
+      </p>
+
+      <!-- Comments -->
+      <div class="comments">
+        <h3>Comments</h3>
+        <input type="text" placeholder="Your Name" class="name">
+        <textarea placeholder="Your Comment" class="message"></textarea>
+        <button onclick="addComment(this)">Add Comment</button>
+        <div class="comment-list"></div>
+      </div>
+    </section>
+
+    <!-- Post 2 -->
+    <section class="post" id="post2">
+      <h2>Importance of JavaScript</h2>
+      <p class="date">Published on: 12 Dec 2025</p>
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="JavaScript Coding">
+      <p>
+        JavaScript makes websites dynamic. It allows developers to handle user
+        interactions, validate forms, and update content without reloading the page.
+      </p>
+
+      <div class="comments">
+        <h3>Comments</h3>
+        <input type="text" placeholder="Your Name" class="name">
+        <textarea placeholder="Your Comment" class="message"></textarea>
+        <button onclick="addComment(this)">Add Comment</button>
+        <div class="comment-list"></div>
+      </div>
+    </section>
+
+    <!-- Post 3 -->
+    <section class="post" id="post3">
+      <h2>Why Responsive Design Matters</h2>
+      <p class="date">Published on: 14 Dec 2025</p>
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Responsive Design">
+      <p>
+        Responsive design ensures that websites look good on all devices such as
+        mobiles, tablets, and desktops. Media queries play an important role in
+        responsiveness.
+      </p>
+
+      <div class="comments">
+        <h3>Comments</h3>
+        <input type="text" placeholder="Your Name" class="name">
+        <textarea placeholder="Your Comment" class="message"></textarea>
+        <button onclick="addComment(this)">Add Comment</button>
+        <div class="comment-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/JS/script.js"></script>
+</body>
+</html>

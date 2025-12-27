@@ -96,7 +96,6 @@ main {
   border-radius: 4px;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   nav ul li {
     display: block;
